@@ -4,7 +4,7 @@ Trabalho Prático 2 da disciplina de Linguagens de Programação (PUCRS, Escola 
 
 **Integrante:** Isadora Spode Cardoso
 
-**Vídeo de apresentação:**
+**Vídeo de apresentação:** https://youtu.be/qRG2XqhpdDU
 
 ## O problema
 
