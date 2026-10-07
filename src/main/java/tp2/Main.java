@@ -57,7 +57,7 @@ public class Main {
                         gerarGetter(classe, variavel, nomeGetter);
                         System.out.println("  Gerado: " + nomeGetter);
                     }
-
+                    //extensao
                     if (campo.isFinal()) {
                         System.out.println("  Sem setter (final): " + nome);
                     } else if (!existeMetodo(classe, nomeSetter, 1)) {
@@ -66,7 +66,7 @@ public class Main {
                     }
                 }
             }
-
+            //extensao
             if (comToString && !existeMetodo(classe, "toString", 0)) {
                 gerarToString(classe, nomesAtributos);
                 System.out.println("  Gerado: toString");
