@@ -4,19 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- Identificacao do projeto -->
+
     <groupId>tp2</groupId>
     <artifactId>gerador-getters</artifactId>
     <version>1.0</version>
 
     <properties>
-        <!-- Versao do Java usada para compilar -->
         <maven.compiler.release>21</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
-        <!-- JavaParser: le codigo Java e entrega a arvore sintatica (AST) -->
         <dependency>
             <groupId>com.github.javaparser</groupId>
             <artifactId>javaparser-core</artifactId>
@@ -26,7 +24,6 @@
 
     <build>
         <plugins>
-            <!-- Permite rodar o programa com "mvn compile exec:java" -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
